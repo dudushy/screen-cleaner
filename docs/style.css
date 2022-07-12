@@ -1,4 +1,31 @@
 body {
     color: #ffffff;
-    background-color: #000000
+    background-color: #000000;
+}
+
+td {
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding-inline: 2em;
+}
+
+#white {
+    color: black;
+    background-color: white;
+}
+
+#black {
+    background-color: black;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
 }
