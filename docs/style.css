@@ -9,6 +9,18 @@ td {
     padding-inline: 2em;
 }
 
+.button {
+    opacity: .7;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.button:active {
+    border: 2px solid #7e7e7e;
+}
+
 #white {
     color: black;
     background-color: white;
@@ -28,4 +40,9 @@ td {
 
 #blue {
     background-color: blue;
+}
+
+#custom {
+    background-color: #640bac;
+    display: none;
 }
