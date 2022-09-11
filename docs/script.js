@@ -2,8 +2,17 @@ console.log("screen-cleaner");
 
 const divBackground = document.querySelector("#background");
 
-document.addEventListener("fullscreenchange", function() {
-	if(document.fullscreenElement !== null) {
+var timeout;
+document.onmousemove = function () {
+    document.body.style.cursor = "default";
+    clearTimeout(timeout);
+    timeout = setTimeout(function () {
+        document.body.style.cursor = "none";
+    }, 2 * 1000);
+}
+
+document.addEventListener("fullscreenchange", function () {
+    if (document.fullscreenElement !== null) {
         console.log("FULLSCREEN [ON]");
         hideElements();
     } else {

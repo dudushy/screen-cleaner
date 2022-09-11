@@ -1,6 +1,8 @@
 body {
     color: #ffffff;
     background-color: #000000;
+    /* cursor: none; */
+    /* cursor: default; */
 }
 
 #background:fullscreen { 
